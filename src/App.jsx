@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-
+import Homepage from './pages/Homepage/Homepage';
+import Recipelist from './pages/Recipelist/Recipelist';
 
 
 const App = () => {
@@ -17,8 +18,8 @@ const App = () => {
         <Navbar></Navbar>
 
         <Routes>
-         <Route path='/'/>
-         <Route path='/Recipelist' />
+         <Route path='/' element={<Homepage />}       />
+         <Route path='Recipelist' element={<Recipelist />} />
 
         </Routes>
       </Router>
