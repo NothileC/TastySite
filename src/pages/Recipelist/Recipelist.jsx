@@ -1,4 +1,10 @@
 import React from 'react'
+import { PRODUCTS } from '../../products';
+import { Product } from './Product';
+
+
+
+
 
 const Recipelist = () => {
   return (
@@ -7,7 +13,10 @@ const Recipelist = () => {
         <h1>Tastien</h1>
       </div>
 
-      <div className="products">
+      <div className="products"> 
+      {PRODUCTS.map((products) => (
+        <Product data={products}/>
+      ))}
         
 
       </div>
