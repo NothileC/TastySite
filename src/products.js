@@ -8,7 +8,7 @@ import product6 from './assets/veggie.jpg';
 export const PRODUCTS = [
     {
             id: 1,
-            title: "Juicy Burger",
+            title: "Gourmet Burger",
             description: "Savor the classic harmony of juicy beef, melted cheese, and fresh fixings in every bite of our signature cheeseburger.",
             ingredients: ["Beef patty", "Cheese", "Lettuce", "Tomato", "Burger bun"],
             tagLine: ["Juicest Cheese Burger you will ever taste"],
