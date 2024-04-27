@@ -10,7 +10,7 @@ const Recipelist = () => {
   return (
     <div className="list">
       <div className="listTitle">
-        <h1>Tastien</h1>
+        <h1>Our Recipes:</h1>
       </div>
 
       <div className="products"> 
