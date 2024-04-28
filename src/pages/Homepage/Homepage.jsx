@@ -38,7 +38,7 @@ const Homepage = () => {
           </div>
           <div className='order-1 sm:order-2'>
             {/* Image section */}
-            <img src={Hero} alt="" className='w-full sm:scale-60 sm:-translate-y-16' />
+            <img src={Hero} alt="" className='w-full sm:scale-60 sm:-translate-y-2' />
           </div>
 
         </div>

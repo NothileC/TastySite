@@ -1,8 +1,18 @@
 import React from 'react';
+import Button from './Button';
+
 
 export const Product = (props) => {
-    const {id, productImage,title,description, ingredients}=props.data;
+    const {productImage,title,tagLine}=props.data;
+
+
+    
+    
+    
+
+
   return  (
+
     <div className='product'>
         <img src={productImage} alt='product'></img>
 
@@ -11,14 +21,15 @@ export const Product = (props) => {
                 <b>{title}</b>
             </p> 
             <p>
-                {description}
+                {tagLine}
             </p>
-            <p>
-                {ingredients}
-            </p>
-            <button>View</button>
+            
+            
+              <Button></Button>
+            
 
         </div>
+        
        
     </div>
 );
