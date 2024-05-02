@@ -28,7 +28,7 @@ const Homepage = () => {
 
             </h1>
             <p className='lg:pr-64'>
-              From mouth-watering mains to delectable desserts, embark on a culinary journey like never before!
+              Indulge in culinary creativity with our unique recipes - where every dish tells a story!
             </p>
 
             {/*button section*/}
