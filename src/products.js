@@ -9,67 +9,51 @@ export const PRODUCTS = [
     {
             id: 1,
             title: "Gourmet Burger",
-            description: "Savor the classic harmony of juicy beef, melted cheese, and fresh fixings in every bite of our signature cheeseburger.",
-            ingredients: ["Beef patty", "Cheese", "Lettuce", "Tomato", "Burger bun"],
-            tagLine: ["Juicest Cheese Burger you will ever taste"],
+            tagLine: ["Grill Magic: Where Flavors Meet!"],
             productImage: product2,
-            prep: ["cook burger patty for 10 minutes on 200 degrees, assemble ingredients in order"]
+           
     },
 
     {
         
         id: 2,
-        title: "Juicy Burger",
-        description: "Savor the classic harmony of juicy beef, melted cheese, and fresh fixings in every bite of our signature cheeseburger.",
-        ingredients: ["Beef patty", "Cheese", "Lettuce", "Tomato", "Burger bun"],
-        tagLine: ["Juicest Cheese Burger you will ever taste"],
+        title: "Fruit Bowl",
+        tagLine: ["Hold off on the yoghurt until it's time to serve!"],
         productImage: product1,
-        prep: ["cook burger patty for 10 minutes on 200 degrees, assemble ingredients in order"]
-
+      
     },
 
     {
         
         id: 3,
-        title: "Juicy Burger",
-        description: "Savor the classic harmony of juicy beef, melted cheese, and fresh fixings in every bite of our signature cheeseburger.",
-        ingredients: ["Beef patty", "Cheese", "Lettuce", "Tomato", "Burger bun"],
-        tagLine: ["Juicest Cheese Burger you will ever taste"],
+        title: "Classic Sunny-Side Up",
+        tagLine: ["For a lovely presentation and minimal work (no flipping required)."],
         productImage: product3,
-        prep: ["cook burger patty for 10 minutes on 200 degrees, assemble ingredients in order"]
 
     },
 
     {
         
         id: 4,
-        title: "Juicy Burger",
-        description: "Savor the classic harmony of juicy beef, melted cheese, and fresh fixings in every bite of our signature cheeseburger.",
-        ingredients: ["Beef patty", "Cheese", "Lettuce", "Tomato", "Burger bun"],
-        tagLine: ["Juicest Cheese Burger you will ever taste"],
+        title: "Berry Blaze",
+        tagLine: ["Refuel Your Senses with fresh berry extract!"],
         productImage: product4,
-        prep: ["cook burger patty for 10 minutes on 200 degrees, assemble ingredients in order"]
     },
 
     {
         
         id: 5,
-        title: "Juicy Burger",
-        description: "Savor the classic harmony of juicy beef, melted cheese, and fresh fixings in every bite of our signature cheeseburger.",
-        ingredients: ["Beef patty", "Cheese", "Lettuce", "Tomato", "Burger bun"],
-        tagLine: ["Juicest Cheese Burger you will ever taste"],
+        title: "Prawn laksa",
+        tagLine: ["A quick fix of Prawns!"],
         productImage: product5,
-        prep: ["cook burger patty for 10 minutes on 200 degrees, assemble ingredients in order"]
     },
 
     {
         
         id: 6,
-        title: "Juicy Burger",
-        description: "Savor the classic harmony of juicy beef, melted cheese, and fresh fixings in every bite of our signature cheeseburger.",
-        ingredients: ["Beef patty", "Cheese", "Lettuce", "Tomato", "Burger bun"],
-        tagLine: ["Juicest Cheese Burger you will ever taste"],
+        title: "Butternut Squash and Fetta",
+        tagLine: ["Eat fresh, Eat healthy!"],
         productImage: product6,
-        prep: ["cook burger patty for 10 minutes on 200 degrees, assemble ingredients in order"]
+      
     }
 ];
